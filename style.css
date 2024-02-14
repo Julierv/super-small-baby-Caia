@@ -93,11 +93,13 @@ body {
   animation: open-rev 2s;
 }
 
+.container.clicked .lid,
 .container:hover .lid {
   animation: open 0.5s;
   animation-fill-mode: forwards;
 }
 
+.container.clicked .card,
 .container:hover .card {
   animation: slide 0.2s;
   animation-delay: 0.5s;
